@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<head>
+  <title>Maze Game</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+  <style>
+  
+  td {
+    border: 2px solid;
+    width: 50px;
+    height: 50px;
+}
+.table-div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 40px;
+    width: 40px;
+}
+h2{
+    text-align: center;
+}
+
+</style>
+</head>
+<html>
+<body>
+
+<h2>Use Arrow Keys Of Keyboard to Move me</h2>
+
+
+<p id="demo"></p>
+<div>
+  <div>
+    <div>
+      <div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="table-div">
+<table >
+  <tr>
+    <td id="tr1d1" >
+        <img id="img01" src="logo.jpeg">
+    </td>
+    <td id="tr1d2"></td>
+    <td id="tr1d3"></td>
+    <td id="tr1d4"></td>
+    <td id="tr1d5"></td>
+    <td id="tr1d6"></td>
+    <td id="tr1d7"></td>
+    <td id="tr1d8"></td>
+    <td id="tr1d9"></td>
+    <td id="tr1d10"></td>    
+  </tr><tr>
+        <td id="tr2d1"></td>
+        <td id="tr2d2"></td>
+        <td id="tr2d3"></td>
+        <td id="tr2d4"></td>
+        <td id="tr2d5"></td>
+        <td id="tr2d6"></td>
+        <td id="tr2d7"></td>
+        <td id="tr2d8"></td>
+        <td id="tr2d9"></td>
+        <td id="tr2d10"></td>    
+      </tr>
+      <tr>
+            <td id="tr3d1"></td>
+            <td id="tr3d2"></td>
+            <td id="tr3d3"></td>
+            <td id="tr3d4"></td>
+            <td id="tr3d5"></td>
+            <td id="tr3d6"></td>
+            <td id="tr3d7"></td>
+            <td id="tr3d8"></td>
+            <td id="tr3d9"></td>
+            <td id="tr3d10"></td>    
+          </tr>
+          <tr>
+                <td id="tr4d1"></td>
+                <td id="tr4d2"></td>
+                <td id="tr4d3"></td>
+                <td id="tr4d4"></td>
+                <td id="tr4d5"></td>
+                <td id="tr4d6"></td>
+                <td id="tr4d7"></td>
+                <td id="tr4d8"></td>
+                <td id="tr4d9"></td>
+                <td id="tr4d10"></td>    
+              </tr>
+              <tr>
+                    <td id="tr5d1"></td>
+                    <td id="tr5d2"></td>
+                    <td id="tr5d3"></td>
+                    <td id="tr5d4"></td>
+                    <td id="tr5d5"></td>
+                    <td id="tr5d6"></td>
+                    <td id="tr5d7"></td>
+                    <td id="tr5d8"></td>
+                    <td id="tr5d9"></td>
+                    <td id="tr5d10"></td>    
+                  </tr>
+                  <tr>
+                        <td id="tr6d1"></td>
+                        <td id="tr6d2"></td>
+                        <td id="tr6d3"></td>
+                        <td id="tr6d4"></td>
+                        <td id="tr6d5"></td>
+                        <td id="tr6d6"></td>
+                        <td id="tr6d7"></td>
+                        <td id="tr6d8"></td>
+                        <td id="tr6d9"></td>
+                        <td id="tr6d10"></td>    
+                      </tr>
+                      <tr>
+                            <td id="tr7d1"></td>
+                            <td id="tr7d2"></td>
+                            <td id="tr7d3"></td>
+                            <td id="tr7d4"></td>
+                            <td id="tr7d5"></td>
+                            <td id="tr7d6"></td>
+                            <td id="tr7d7"></td>
+                            <td id="tr7d8"></td>
+                            <td id="tr7d9"></td>
+                            <td id="tr7d10"></td>    
+                          </tr>
+                          <tr>
+                                <td id="tr8d1"></td>
+                                <td id="tr8d2"></td>
+                                <td id="tr8d3"></td>
+                                <td id="tr8d4"></td>
+                                <td id="tr8d5"></td>
+                                <td id="tr8d6"></td>
+                                <td id="tr8d7"></td>
+                                <td id="tr8d8"></td>
+                                <td id="tr8d9"></td>
+                                <td id="tr8d10"></td>    
+                              </tr>
+                              <tr>
+                                    <td id="tr9d1"></td>
+                                    <td id="tr9d2"></td>
+                                    <td id="tr9d3"></td>
+                                    <td id="tr9d4"></td>
+                                    <td id="tr9d5"></td>
+                                    <td id="tr9d6"></td>
+                                    <td id="tr9d7"></td>
+                                    <td id="tr9d8"></td>
+                                    <td id="tr9d9"></td>
+                                    <td id="tr9d10"></td>    
+                                  </tr>
+                                  <tr>
+                                        <td id="tr10d1"></td>
+                                        <td id="tr10d2"></td>
+                                        <td id="tr10d3"></td>
+                                        <td id="tr10d4"></td>
+                                        <td id="tr10d5"></td>
+                                        <td id="tr10d6"></td>
+                                        <td id="tr10d7"></td>
+                                        <td id="tr10d8"></td>
+                                        <td id="tr10d9"></td>
+                                        <td id="tr10d10"></td>    
+                                      </tr>
+</table>
+</div>
+<button type="button" id="bt1" onclick="hello()" disabled>click</button>
+</body>
+</html>
